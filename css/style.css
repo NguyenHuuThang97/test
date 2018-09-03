@@ -1,0 +1,542 @@
+body {
+    margin: 0;
+}
+.header{
+    height: 80px;
+    background: white;
+}
+.image{
+    justify-content: flex-start;
+    margin: 10px 15px;
+    height: 50px;
+}
+.menu{
+    position: absolute;
+    left: 50%;
+    top:-6px;
+    display: inline-block;
+    height: 14%;
+    text-decoration: none;
+}
+.bt{
+    margin: 0 24px 0 16px;
+    background-color: #cd1417;
+    border:0;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 2px;
+    border-bottom: 1.2px solid grey;
+}
+.menu li{
+    list-style: none;
+    font-size: 15px;
+    line-height: 40px;
+    display:inline-block;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #444;
+    letter-spacing: 1px;
+    
+}
+.menu li:hover{
+    cursor: pointer;
+    color: red;
+}
+.header .bt:hover{
+    cursor: pointer;
+    background-color: rgb(248, 64, 64);
+
+}
+.content1{
+    height: 460px;
+    background-image: url(../img/background-0.jpg);
+    background-attachment: fixed;
+    font-family: Roboto,sans-serif;
+}
+.boxtext{ 
+    width: 700px;
+    padding-top: 100px;
+    font-family: Roboto,sans-serif;
+}
+.boxtext h2{
+    text-align: center;
+    font-style: normal;
+    font-family: Roboto,sans-serif;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+.boxtext h4{
+                
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 26px;
+    margin-left: 155px;
+}
+.login{
+    position: absolute;
+    width: 295px;
+    height: 370px;
+    background-color: white;
+    top: 18%;
+    left: 65%;
+}
+.text-center{
+    text-align: center;
+}
+.text-center h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #444;
+    letter-spacing: 1px;
+    font-family: Roboto,sans-serif;
+}
+.text-center p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #444;
+    letter-spacing: 1px;
+    font-family: Roboto,sans-serif;
+    line-height: 0 ;
+}
+.but{
+    padding: 10px;
+}
+.gg{
+    position: relative;
+    left: 6%;
+    color: white;
+    background-color: #4285f4;
+    border: 1px;
+    height: 30px;
+    width: 110px;
+    border-radius: 1px;
+   border-bottom: 1.2px solid rgb(170, 168, 168);
+}
+.fb{
+    position: relative;
+    left: 12%;
+    color: white;
+    background-color: #3b5998;
+    border: 1px;
+    height: 30px;
+    width: 110px;
+    border-radius: 1px;
+   border-bottom: 1.2px solid rgb(170, 168, 168);
+}
+.but .gg:hover{
+    cursor: pointer;
+    background: #0868ee;
+}
+.but .fb:hover{
+    cursor: pointer;
+    background: #2754af;
+}
+.or .hr1{
+    top: 120px;
+    position: absolute;
+    left: 9%;
+    border-bottom: 0px solid rgba(0,0,0,0.12);
+}
+.or h5{
+    position: absolute;
+    left: 46%;
+    top: 99px;
+    text-align: center;
+    font-family: Roboto,sans-serif;
+    color: #444;
+    font-size: 13px;
+    font-weight: 400;
+}
+.or .hr2{
+    top: 120px;
+    position: absolute;
+    left: 57%;
+    border-bottom: 0px solid rgba(0,0,0,0.12);
+}
+.login1 .in1{
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 9%;
+    width: 240px;
+    height: 25px;
+    border:0px;
+    border-bottom: 1px solid rgb(161, 160, 160);
+}
+.login1 .in2{
+    display: block;
+    position: absolute;
+    top: 190px;
+    left: 9%;
+    width: 240px;
+    height: 25px;
+    border:0px;
+    border-bottom: 1px solid rgb(161, 160, 160);
+}
+.login1 .check{
+    position: absolute;
+    top: 240px; 
+     left: 8%;
+     opacity: 2;
+}
+.login1 .lable{
+    left: 15%;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #444;
+    top: 242px;
+    font-weight: 400;
+}
+.login1 .check:hover{
+    cursor: pointer; 
+    background-color: rgb(250, 36, 36);
+}
+.login1 a{
+    left: 60%;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #444;
+    top: 242px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #57a9fd;
+}
+.bt1{
+    position: absolute;
+    top: 280px; 
+     left: 8%;
+     text-transform: capitalize;
+     color: white;
+     background: rgb(252, 42, 42);
+     width: 240px;
+     height: 30px;
+     border: 1px;
+     border-radius: 1px;
+     border-bottom: 1px solid grey;
+}
+.bt1:hover{
+    cursor: pointer;
+    background: rgb(253, 61, 61);
+}
+.registration label{
+    left: 8%;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #444;
+    top: 330px;
+    font-weight: 400;
+}
+.registration a{
+    text-decoration: none;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #444;
+    top: 242px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #57a9fd;
+    top: 330px;
+    left: 40%;
+}
+.registration a:hover{
+    color: rgb(219, 35, 35);
+}
+.content2{
+    background: #fafafa;
+}
+.content2 h2{
+    text-align: center;
+    line-height: 100px;
+    font-weight: 400;
+    margin-top: 0;
+    font-size: 26px;
+    text-transform: capitalize;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+  /* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+    left: 25%;
+    width: 700px;
+    height: 500px;
+  }
+  
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+.column {
+    display: inline-block;
+    width: 17%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+  }
+  
+.active,
+.demo:hover {
+    opacity: 1;
+  }
+
+.down .fa-plus-circle{
+   top: 150px;
+}
+.row{
+    position: relative;
+    left: 172px;
+}
+
+.down{
+    display: inline-block;
+    position: relative;
+    left: 8%;
+    width: 300px;
+
+}
+.down .fa-plus-circle, .fa-eye , .fa-window-maximize{
+    color:#cd1417; 
+    font-size: 20px;
+}
+.down span, .see span, .window span{
+    line-height: 20px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #cd1417;
+}
+.see{
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    left: 18%;
+    top:0;
+}
+.window{
+    width: 320px;
+    display: inline-block;
+    position: relative;
+    left: 26%;
+    top: 0 ;
+}
+.content3{
+    height: 400px;
+    background-color: #ebebeb;
+}
+.content3 h2{
+    line-height: 100px;
+    color: #cd1417;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 0;
+    font-size: 26px;
+}
+.save{
+    position: relative;
+    left: 5%;
+}
+.save, .vip, .security{
+    position: relative;
+    width: 350px;
+    display: inline-block;
+}
+.save h4, .vip h4, .security h4{
+    width: 100%;
+    clear: both;
+    line-height: 34px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #cd1417;
+    margin: 0;
+}
+.save svg{
+    position: relative;
+    left: 35%;
+}
+.save h4, .vip h4, .security h4 {
+    text-align: center;
+}
+.save p{
+    position: relative;
+    left: 8%;
+}
+.vip{
+    position: relative;
+    left: 12%;
+    top: 0;
+}
+.vip svg{
+    position: relative;
+    left: 35%;
+}
+
+.security{
+    position: relative;
+    left: 18%;
+    top: 0;
+}
+.security svg{
+    position: relative;
+    left: 35%;
+}
+
+.security p{
+    position: relative;
+    left: 16px;;
+}
+.but1{
+    background-color: #cd1417;
+    line-height: 25px;
+    display: list-item;
+    margin: 30px auto;
+    /* justify-content: center; */
+    /* float: left; */
+    /* margin-left: 620px; */
+    width: 130px;
+    height: 35px;
+    border: 0;
+    border-bottom: 1px solid rgb(167, 165, 165);
+}
+.but1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+.but1:hover{
+    cursor: pointer;
+    background-color: #e4191c;
+}
+.content4 h4{
+    text-align: center;
+    color: #444;
+    font-weight: 300;
+    font-size: 18px;
+}
+.content4 .image1{
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+}
+.content4 .image1 .a1 img{  
+    max-width: 100%;
+    width: 154px;
+    margin-left: 30px;
+}
+.content5{
+    height: 400px;
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+}
+.content5{
+    position: relative;
+    text-align: center;
+
+}
+.content5 h2{
+    color: white;
+    font-weight: 300;
+    line-height: 26px;
+    font-size: 26px;
+    text-transform: uppercase;
+    position: relative;
+    top: 33%;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.content5 h4{
+    color: white;
+    font-weight: 300;
+    line-height: 26px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 36%;
+    margin: 0;
+}
+.content5 .dangky .bt2{
+    background-color: #cd1417;
+    position: absolute;
+    top: 59%;
+    left: 47%;
+    border: 0;
+    border-bottom: 1px solid rgb(160, 159, 159);
+    width: 130px;
+    height: 35px;
+    color: white; 
+}
+.dangky .bt2:hover{
+    cursor: pointer;
+    background-color: #e4191c;
+}
+.footer{
+    width: 400px;
+    background:grey;
+}
